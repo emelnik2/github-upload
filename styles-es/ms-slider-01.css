@@ -1,0 +1,221 @@
+.slider {
+    border-top: 8px solid #A10101;
+    border-bottom: 6px solid #A10101
+}
+.slider-box-01 {
+	width: 56.25em;
+	height: 32.75em;
+    left: 190px; top: 100px;
+	background-size: cover;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images-es/interface/bg-slider-box-01.jpg);
+    border-top: 6px solid #A10101;
+    border-bottom: 6px solid #A10101
+}
+.slider-box-02 {
+	width: 56.25em;
+	height: 32.75em;
+    left: 190px; top: 100px;
+	background-size: cover;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images-es/interface/bg-slider-box-02.jpg);
+    border-top: 6px solid #A10101;
+    border-bottom: 6px solid #A10101
+}
+.slider-box-03 {
+	width: 32.50em;
+	height: 13.75em;
+    left: 48em; top: 4.5em;
+	background-size: cover;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images-es/interface/bg-comercios-txt-box.png);
+}
+.ms-layer.message-home {
+    font-family: "Poppins";
+    font-size: 1rem;
+    background: none;
+    line-height: 2rem
+}
+.ms-layer.message-home span {
+    font-size: 1.5em;
+}
+.ms-layer.message-comercio {
+    width: 20em;
+    height: auto;
+    font-family: "Poppins";
+    font-size: 1.25rem;
+    background: none;
+    line-height: 2.5rem;
+    text-shadow: 2px 2px 4px #000000;    
+}
+.ms-layer.message-comercio span {
+    font-size: 1.5em;
+}
+.ms-layer.message-cat-title {
+    width:50%;
+    height: auto;
+    font-family: "Poppins";
+    font-size: 1.35rem;
+    font-weight: 500;
+    background: none;
+
+}
+.ms-layer.message-cat-title:before {
+    content: '';
+    background: url('../images-es/interface/ico-checkmark.svg');
+    background-repeat: no-repeat;
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    margin-right: 1rem;
+    vertical-align: middle;
+    float:left
+}
+.ms-layer.photo-cat {
+    width:32em;
+    height: auto;
+}
+.ms-layer.photo-emp {
+    width:44em;
+    height: auto;
+}
+.ms-layer.photo-com {
+    width:44em;
+    height: auto;
+}
+.ms-layer.message-cat {
+    width:50%;
+    height: auto;
+    font-family: "Poppins";
+    font-size: 1.0rem;
+    background: none;
+    line-height: 2rem;
+}
+.ms-layer.message-cat:before {
+    content: '';
+    background: url('');
+    background-repeat: no-repeat;
+    width: 2em;
+    height: 4em;
+    display: inline-block;
+    margin-right: 1.1rem;
+    vertical-align: middle;
+    float:left
+}
+.ms-layer.message-cat span {
+    font-size: 1.5em;
+}
+
+.ms-layer.info-volume {
+    width:18.625em;
+    height:auto;
+}
+.ms-layer.perfil {
+    width:36.25em;
+    height:auto;
+}
+.ms-layer.video {
+    width:40em;
+    height:auto;
+}
+.ms-slide-layers {
+	overflow: visible !important; 
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 767px) {
+
+.slider-box-01 {
+	width: 22.0em;
+	height: 34.0em;
+    left: .5em; top: 1em;
+	background-size: cover;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images-es/interface/bg-slider-box-01-mobile.jpg);
+    border-top: 3px solid #A10101;
+    border-bottom: 3px solid #A10101
+}
+
+.slider-box-02 {
+	width: 22em;
+	height: 34em;
+    left: .5em; top: 1em;
+	background-size: cover;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images-es/interface/bg-slider-box-02-mobile.jpg);
+    border-top: 6px solid #A10101;
+    border-bottom: 6px solid #A10101
+}
+    
+.ms-layer.message-home {
+    width:100%;
+    font-family: "Poppins";
+    font-size: .75rem;
+    background: none;
+    line-height: 1.25rem
+}
+.ms-layer.message-home span {
+    font-size: 1em;
+}
+    
+.ms-layer.info-volume {
+    width:11em;
+    height:auto;
+}
+
+.ms-layer.perfil {
+    width:21.0em;
+    height:auto;
+}
+
+.ms-layer.video {
+    width:23em;
+    height:auto;
+}
+.ms-layer.photo-cat {
+    width:16em;
+    height: auto;
+}
+.ms-layer.photo-emp {
+    width:22em;
+    height: auto;
+}
+.ms-layer.photo-com {
+    width:22em;
+    height: auto;
+}    
+.ms-layer.message-cat-mobile {
+    width:90%;
+    height: auto;
+    font-family: "Poppins";
+    font-size: .75rem;
+    background: none;
+    line-height: 1.5rem;
+}
+.ms-layer li:before {
+    content: '';
+    background: url('../images-es/interface/ico-checkmark.svg');
+    background-repeat: no-repeat;
+    width: 2em;
+    height: 4em;
+    display: inline-block;
+    margin-right: 1.1rem;
+    vertical-align: middle;
+    float:left
+}
+}

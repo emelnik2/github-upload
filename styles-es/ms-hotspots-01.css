@@ -1,0 +1,55 @@
+.ms-container {
+	background: url() no-repeat center 70%;
+	background-size: 70% 25%;
+}
+.ms-showcase1 .master-slider,.ms-container,.ms-view{
+	-moz-transform: translate3d(0,0,1px);
+	position: relative;
+}
+
+
+.ms-showcase1 .ms-view{background:transparent;}
+.ms-showcase1 .ms-layer.product-title {
+    margin: 0;
+    font-size: 20pt;
+    color: #222;
+    font-weight: 300;
+}
+
+.ms-showcase1 .ms-slide {
+	text-shadow:0px 1px 0 white;
+    
+}
+
+.ms-showcase1 .ms-skin-default .ms-tooltip-cont{
+	width:250px;
+}
+
+.ms-showcase1 .product-title {
+    font-size: 1rem;
+    width: 100%;
+}
+
+.ms-showcase1 .product-tt {
+    font-size: .75rem;
+    padding: 1rem;
+    color: #4D4D4D;
+    background-color: white
+}
+
+ .product-tt h4 {
+	font-size: 1rem;
+	margin: 0 0 5px 0;
+	font-weight: 400;
+    color: #CE0E2D
+}
+
+.b-plastico {
+    margin-left:-10px;
+}
+.b-plastico-1 {
+    margin-left:-35px;
+}
+.b-papel {
+    margin-left:0px;
+}

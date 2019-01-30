@@ -1,0 +1,26 @@
+input.checkbox  {
+	width: 2em;
+	height: 2em;
+	display: inline;
+	padding: 0;
+}
+
+.primaryAction svg g {fill:#CF0A2C !important}
+	
+.contactid {
+    color: white;
+    background-color: rgb(207, 13, 42);
+    text-align: center;
+}
+
+.requerido:before{content: "*"; display: block; width: .8em; height: 1em; color: #CF0A2C; margin-right: 0; float: left; font-size: 1.3em;}
+
+.add_padding_top {
+    padding-top:  5px;
+}
+
+hr.style13 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #cf0d2a inset;
+}
